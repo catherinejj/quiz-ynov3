@@ -1,0 +1,6 @@
+@Ynov.QuizYnov_HostAddress = http://localhost:5220
+
+GET {{Ynov.QuizYnov_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
