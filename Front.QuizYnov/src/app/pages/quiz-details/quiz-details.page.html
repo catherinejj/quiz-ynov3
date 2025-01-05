@@ -1,1 +1,10 @@
 <p>quiz-details works!</p>
+@for (quiz of quizzes; track quiz.id) {
+  <div>
+    <h1>{{ quiz.name }}</h1> <!-- Affiche le nom du quiz -->
+    <p><strong>Description :</strong> {{ quiz.description }}</p> <!-- Affiche la description -->
+    <p><strong>Difficulté :</strong> {{ quiz.difficulty }}</p> <!-- Affiche la difficulté -->
+    <p><strong>Date de publication :</strong> {{ quiz.publishedDate | date }}</p> <!-- Affiche la date formatée -->
+    <p><strong>Catégorie :</strong> {{ quiz.category.name }}</p> <!-- Affiche le nom de la catégorie -->
+  </div>
+}
