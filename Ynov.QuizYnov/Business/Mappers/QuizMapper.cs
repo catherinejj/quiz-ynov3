@@ -13,8 +13,15 @@ namespace Ynov.QuizYnov.Business.Mappers
                 Name = quiz.Name,
                 Description = quiz.Description,
                 Difficulty = quiz.Difficulty,
-                Category = quiz.Category?.Name
-            };
+                //Category = quiz.Category?.Name
+                Category = quiz.Category != null
+                ? new CategoryDto
+                {
+                    Id = quiz.Category.Id,
+                    Name = quiz.Category.Name
+                }
+                : null // Si Category est null, retourne null
+                };
         }
     }
 }

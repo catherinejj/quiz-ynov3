@@ -452,11 +452,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/catherine/quiz-ynov/Ynov.QuizYnov/Ynov.QuizYnov.csproj",
+      "projectUniqueName": "/Users/catherine/quiz-ynov3/Ynov.QuizYnov/Ynov.QuizYnov.csproj",
       "projectName": "Ynov.QuizYnov",
-      "projectPath": "/Users/catherine/quiz-ynov/Ynov.QuizYnov/Ynov.QuizYnov.csproj",
+      "projectPath": "/Users/catherine/quiz-ynov3/Ynov.QuizYnov/Ynov.QuizYnov.csproj",
       "packagesPath": "/Users/catherine/.nuget/packages/",
-      "outputPath": "/Users/catherine/quiz-ynov/Ynov.QuizYnov/obj/",
+      "outputPath": "/Users/catherine/quiz-ynov3/Ynov.QuizYnov/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/catherine/.nuget/NuGet/NuGet.Config"

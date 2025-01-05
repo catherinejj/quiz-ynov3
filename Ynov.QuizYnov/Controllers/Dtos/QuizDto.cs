@@ -6,6 +6,6 @@ namespace Ynov.QuizYnov.Business.Dtos
         public string Name { get; set; }
         public string Description { get; set; }
         public int Difficulty { get; set; }
-        public string Category { get; set; }
+        public CategoryDto Category { get; set; } //changer plein de fois 
     }
 }
